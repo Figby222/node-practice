@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^1.7.5",
     "formidable": "^3.5.1",
+    "nodemailer": "^6.9.14",
     "upper-case": "^2.0.2"
   }
 }
