@@ -26,3 +26,12 @@ axios.get("https://blahblahblah.com")
     .then(response => response.JSON())
     .then(response => console.log(response))
     .catch(console.log);
+
+axios.post("https://blahblahblah.com/cookies", {
+    cookies: [ "Chocolate Chip" ]
+})
+.then(response => {
+    console.log(`statusCode: ${response.status}`);
+    console.log(response);
+})
+.catch(error => console.log(error));
